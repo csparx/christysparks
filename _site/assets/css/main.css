@@ -7,7 +7,7 @@
  */
 /* Document
    ========================================================================== */
-@import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -483,7 +483,7 @@ body {
   background: #F6F6F8;
   font-size: 14px;
   line-height: 1.6;
-  font-family: 'Open Sans' sans-serif;
+  font-family: 'Fira Sans' sans-serif;
   color: #2E2D33;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -523,6 +523,8 @@ body {
     text-align: right; }
     .home-wrap header .site-nav ul li {
       margin-bottom: 10px; }
+      .home-wrap header .site-nav ul li a {
+        color: #252525; }
       .home-wrap header .site-nav ul li:last-child {
         margin-bottom: 0; }
   .home-wrap header .email-link {
@@ -608,6 +610,76 @@ body {
     -webkit-transform: translateY(0%);
             transform: translateY(0%); } }
 
+section.about {
+  background-image: url(../img/about-bg.jpg);
+  background-position: right right;
+  background-size: cover;
+  height: 400px; }
+  section.about .blue-overlay {
+    background-color: rgba(0, 91, 127, 0.75);
+    position: absolute;
+    top: -20px;
+    left: 125px;
+    border-radius: 0 175px 175px 175px;
+    padding: 50px 50px 20px 50px;
+    overflow: hidden; }
+    section.about .blue-overlay h2 {
+      color: white;
+      font-size: 35px;
+      font-weight: 500;
+      line-height: 1;
+      margin-left: 20px;
+      margin-bottom: 10px; }
+    section.about .blue-overlay .home-lead {
+      color: white;
+      font-size: 30px;
+      font-weight: 100;
+      font-family: Helvetica;
+      white-space: pre;
+      margin-left: 20px;
+      line-height: 1.2; }
+    section.about .blue-overlay .home-cta {
+      margin-left: 100px; }
+      section.about .blue-overlay .home-cta .contact-button {
+        color: white;
+        font-size: 20px;
+        background-color: #252525;
+        padding: 10px;
+        margin-left: 20px; }
+
+@media (max-width: 775px) {
+  section.about {
+    height: 250px; }
+    section.about .blue-overlay {
+      top: 120px;
+      left: -20px;
+      border-radius: 0 150px 150px 150px;
+      padding: 20px 60px 20px 20px; }
+      section.about .blue-overlay h2 {
+        font-size: 30px;
+        font-weight: 500; }
+      section.about .blue-overlay .home-lead {
+        color: white;
+        font-size: 25px;
+        font-weight: 100;
+        font-family: Helvetica;
+        white-space: pre;
+        margin-left: 20px;
+        line-height: 1.2; } }
+
+@media (max-width: 640px) {
+  section.about .blue-overlay h2 {
+    margin-left: auto;
+    margin-right: auto; }
+  section.about .blue-overlay .home-lead {
+    margin-left: auto;
+    margin-right: auto; } }
+
+section.portfolio {
+  background-color: #005b7f; }
+  section.portfolio .flex.flex--center .col-3 a img {
+    max-width: 90%; }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
@@ -634,14 +706,39 @@ body {
   .home-sections .flex--space-around {
     -ms-flex-pack: distribute;
         justify-content: space-around; }
+  .home-sections .order-first {
+    -ms-flex-order: -1;
+        order: -1; }
 
 .col-1 {
+  max-width: 400px;
+  margin: 0 10px; }
+
+.col-2 {
+  max-width: 620px;
+  margin: 0 10px; }
+
+.col-3 {
   max-width: 300px;
-  margin: 0 10px;
-  background: pink; }
+  margin: 0; }
+
+.col-50 {
+  width: 50%; }
+
+.push-left {
+  margin-right: 530px;
+  margin-top: -30px; }
 
 @media (max-width: 640px) {
   .home-sections .flex {
     display: block; }
   .col-1 {
-    max-width: 100%; } }
+    max-width: 100%; }
+  .col-50 {
+    width: auto; }
+  .push-left {
+    margin-left: 10px; } }
+
+.home-lead {
+  font-size: 36px;
+  line-height: 1.1; }

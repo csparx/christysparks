@@ -29,18 +29,23 @@
 
 // columns
 .col-1
-  max-width: 300px
+  max-width: 400px
   margin: 0 10px
-  background: pink
 
 .col-2
   max-width: 620px
   margin: 0 10px
-  background: honeydew
+
+.col-3
+  max-width: 300px
+  margin: 0
 
 .col-50
   width: 50%
-  background: yellow
+
+.push-left
+  margin-right: 530px
+  margin-top: -30px
 
 @media (max-width: 640px)
   .home-sections .flex
@@ -51,3 +56,13 @@
 
   .col-50
     width: auto
+
+  .push-left
+    margin-left: 10px
+
+
+// Typography
+
+.home-lead
+  font-size: 36px
+  line-height: 1.1

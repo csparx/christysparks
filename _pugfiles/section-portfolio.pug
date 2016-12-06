@@ -1,0 +1,18 @@
+mixin portfolio-img(link, img)
+  a(href=link).portfolio-img-link
+    img(src=img)
+
+section.portfolio
+  .flex.flex--center
+    .col-3
+      +portfolio-img('#', 'assets/img/portfolio/work-1.jpg')
+      +portfolio-img('#', 'assets/img/portfolio/work-2.jpg')
+      +portfolio-img('#', 'assets/img/portfolio/work-3.jpg')
+    .col-3
+      +portfolio-img('#', 'assets/img/portfolio/work-4.jpg')
+      +portfolio-img('#', 'assets/img/portfolio/work-5.jpg')
+      +portfolio-img('#', 'assets/img/portfolio/work-6.jpg')
+    .col-3
+      +portfolio-img('#', 'assets/img/portfolio/work-7.jpg')
+      +portfolio-img('#', 'assets/img/portfolio/work-8.jpg')
+      +portfolio-img('#', 'assets/img/portfolio/work-9.jpg')

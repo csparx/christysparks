@@ -1,0 +1,73 @@
+section.about
+  background:
+    image: url(../img/about-bg.jpg)
+    position: right right
+    size: cover
+  height: 400px
+
+  .blue-overlay
+    content: "heslkjflksdlkjf"
+    background:
+      color: rgba(0,91,127,0.75)
+    //margin-left: -190px
+    //margin-top: -50px
+    //border-radius: 150px 150px 150px 150px
+    //margin-bottom: 125px
+    position: absolute
+    top: -20px
+    left: 125px
+    border-radius: 0 175px 175px 175px
+    padding: 50px 50px 20px 50px
+    overflow: hidden
+
+    h2
+      color: white
+      font:
+        size: 35px
+        weight: 500
+      line-height: 1
+      margin-left: 20px
+      margin-bottom: 10px
+
+
+    .home-lead
+      color: white
+      font:
+        size: 30px
+        weight: 100
+        family: Helvetica
+      white-space: pre
+      margin-left: 20px
+      line-height: 1.2
+
+    .home-cta
+      margin-left: 100px
+
+      .contact-button
+        color: white
+        font:
+          size: 20px
+        background:
+          color: #252525
+        padding: 10px
+        margin-left: 20px
+
+
+@media (max-width: 640px)
+  section.about
+
+    .blue-overlay
+      position: absolute
+      top: 20px
+      left: 0
+      border-radius: 0 175px 175px 175px
+      padding: 50px 50px 20px 50px
+      overflow: hidden
+
+      h2
+        margin-left: auto
+        margin-right: auto
+
+      .home-lead
+        margin-left: auto
+        margin-right: auto

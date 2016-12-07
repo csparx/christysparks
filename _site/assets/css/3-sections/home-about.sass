@@ -4,15 +4,11 @@ section.about
     position: right right
     size: cover
   height: 400px
+  padding: 50px 0
 
   .blue-overlay
-    content: "heslkjflksdlkjf"
     background:
       color: rgba(0,91,127,0.75)
-    //margin-left: -190px
-    //margin-top: -50px
-    //border-radius: 150px 150px 150px 150px
-    //margin-bottom: 125px
     position: absolute
     top: -20px
     left: 125px
@@ -53,21 +49,57 @@ section.about
         margin-left: 20px
 
 
+@media (max-width: 775px)
+  section.about
+    height: 250px
+
+    .blue-overlay
+      top: 120px
+      left: -20px
+      border-radius: 0 150px 150px 150px
+      padding: 20px 60px 20px 20px
+
+      h2
+        font:
+          size: 30px
+          weight: 500
+
+      .home-lead
+        color: white
+        font:
+          size: 25px
+          weight: 100
+          family: Helvetica
+        white-space: pre
+        margin-left: 20px
+        line-height: 1.2
+
 @media (max-width: 640px)
   section.about
+    background:
+      image: url(../img/about-bg.jpg)
+      position: center center
+      size: cover
 
     .blue-overlay
       position: absolute
-      top: 20px
+      bottom: 470px
       left: 0
-      border-radius: 0 175px 175px 175px
-      padding: 50px 50px 20px 50px
-      overflow: hidden
+      border-radius: 0 150px 150px 150px
+      padding: 0
 
       h2
         margin-left: auto
         margin-right: auto
+        text-align: center
+        font:
+          size: 20px
 
       .home-lead
+        margin-left: auto
+        margin-right: auto
+        text-align: center
+
+      .home-cta
         margin-left: auto
         margin-right: auto

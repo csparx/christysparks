@@ -51,13 +51,17 @@ section.about
 
 @media (max-width: 775px)
   section.about
-    height: 250px
+    height: 225px
+    background:
+      image: url(../img/about-bg-tablet.png)
+      position: left top
+      size: cover
 
     .blue-overlay
       top: 120px
       left: -20px
       border-radius: 0 150px 150px 150px
-      padding: 20px 60px 20px 20px
+      padding: 0px 20px 10px 20px
 
       h2
         font:
@@ -78,34 +82,43 @@ section.about
   section.about
     background:
       image: url(../img/about-bg.jpg)
-      position: center center
+      position: center top
       size: cover
-    height: 100px
-    margin-bottom: 160px
+    height: 200px
+    margin-bottom: 188px
+    width: 100%
 
     .blue-overlay
       background:
         color: rgba(0,91,127,1)
-      position: relative
+      position: absolute
+      bottom: 0px
       border-radius: 0
-      padding: 0px 20px 20px 0px
-      height: 200px
+      padding: 0
+      height: 240px
+      top: auto
       width: 100%
+      left: 0px
 
       h2
         font:
           size: 25px
         text-align: center
-
+        margin-left: 0
 
       .home-lead
         font:
           size: 20px
         text-align: center
+        margin-left: 0
 
       .home-cta
-        margin-left: 100px
+        padding: 0
+        text-align: center
+        margin: 0
 
         .contact-button
           font:
             size: 16px
+          margin-left: auto
+          margin-right: auto

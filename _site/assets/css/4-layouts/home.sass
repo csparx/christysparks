@@ -4,6 +4,7 @@
 
   @media (max-width: 775px)
     display: block
+
 .home-sections
   flex: 1
 
@@ -22,8 +23,11 @@
   .flex--space-around
     justify-content: space-around
 
+  .block
+    display: block
+
   .order-first
-    order: -1
+    order: 0
 
 
 // columns
@@ -42,22 +46,47 @@
 .col-50
   width: 50%
 
+.col-60
+  width: 60%
+  margin: 0 10px
+
+.col-30
+  width: 30%
+  margin: 10px 10px
+
 .push-left
   margin-right: 530px
   margin-top: -30px
+
+
 
 @media (max-width: 640px)
   .home-sections .flex
     display: block
 
+  .order-first
+    order: -1
+
   .col-1
+    max-width: 100%
+
+  .col-3
     max-width: 100%
 
   .col-50
     width: auto
 
+  .col-30
+    width: 100%
+    margin: 0
+
+  .col-60
+    width: 100%
+
+
   .push-left
-    margin-left: 10px
+    margin-left: 0
+    margin-right: 100px
 
 
 // Typography

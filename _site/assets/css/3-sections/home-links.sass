@@ -5,12 +5,20 @@ section.links
       height: 100px
       background:
         color: #959595
-      padding: 10px 0
-      img
+      padding: 10px 10px
+      span.github-img
+        background:
+          image: url(../img/github.png)
+          position: center center
+          size: contain
+          repeat: no-repeat
         display: block
         height: 100%
         margin-left: auto
         margin-right: auto
+        &:hover
+          background:
+            image: url(../img/github-hover.png)
 
     .twitter
       width: 30%
@@ -18,11 +26,19 @@ section.links
       background:
         color: #898989
       padding: 10px 0
-      img
+      span.twitter-img
+        background:
+          image: url(../img/twitter.png)
+          position: center center
+          size: contain
+          repeat: no-repeat
         display: block
         height: 100%
         margin-left: auto
         margin-right: auto
+        &:hover
+          background:
+            image: url(../img/twitter-hover.png)
 
     .linkedin
       width: 30%
@@ -30,10 +46,18 @@ section.links
       background:
         color: #707070
       padding: 10px 0
-      img
+      span.linkedin-img
+        background:
+          image: url(../img/linkedin.png)
+          position: center center
+          size: contain
+          repeat: no-repeat
         display: block
         height: 100%
         margin: 0 auto
+        &:hover
+          background:
+            image: url(../img/linkedin-hover.png)
 
 @media (max-width: 640px)
   section.links

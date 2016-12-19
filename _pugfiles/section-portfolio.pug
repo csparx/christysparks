@@ -2,19 +2,19 @@ mixin portfolio-img(link, img)
   a(href=link).portfolio-img-link
     img(src=img)
 
-section.portfolio
+section.portfolio#portfolio
   .flex.flex--center
     .col-3
-      +portfolio-img('#', 'assets/img/portfolio/work-1.jpg')
-      +portfolio-img('#', 'assets/img/portfolio/work-2.jpg')
-      +portfolio-img('#', 'assets/img/portfolio/work-3.jpg')
+      +portfolio-img('/forestree.html', 'assets/img/portfolio/work-1.jpg')
+      +portfolio-img('http://www.caferacermag.com', 'assets/img/portfolio/work-2.jpg')
+      //+portfolio-img('#', 'assets/img/portfolio/work-3.jpg')
     .col-3
-      +portfolio-img('#', 'assets/img/portfolio/work-4.jpg')
-      +portfolio-img('#', 'assets/img/portfolio/work-5.jpg')
-      +portfolio-img('#', 'assets/img/portfolio/work-6.jpg')
+      +portfolio-img('http://www.changethroughlearning.co.uk', 'assets/img/portfolio/work-4.jpg')
+      +portfolio-img('http://hbexpositions.com/', 'assets/img/portfolio/work-5.jpg')
+      //+portfolio-img('#', 'assets/img/portfolio/work-6.jpg')
     .col-3
-      +portfolio-img('#', 'assets/img/portfolio/work-7.jpg')
-      +portfolio-img('#', 'assets/img/portfolio/work-8.jpg')
-      +portfolio-img('#', 'assets/img/portfolio/work-9.jpg')
+      +portfolio-img('http://www.beauthenticstore.com', 'assets/img/portfolio/work-7.jpg')
+      +portfolio-img('http://www.robsouth.org', 'assets/img/portfolio/work-8.jpg')
+      //+portfolio-img('#', 'assets/img/portfolio/work-9.jpg')
   .button-div
-    a(href="#").view-more View More
+    a(href="#").view-more#loadMore View More

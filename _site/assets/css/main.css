@@ -620,7 +620,7 @@ section.about {
   height: 400px;
   padding: 50px 0; }
   section.about .blue-overlay {
-    background-color: rgba(0, 91, 127, 0.75);
+    background-color: #005b7f;
     position: absolute;
     top: -20px;
     left: 125px;
@@ -660,8 +660,8 @@ section.about {
     section.about .blue-overlay {
       top: 120px;
       left: -20px;
-      border-radius: 0 150px 150px 150px;
-      padding: 0px 20px 10px 20px; }
+      border-radius: 0 100px 100px 100px;
+      padding: 0px 30px 10px 20px; }
       section.about .blue-overlay h2 {
         font-size: 30px;
         font-weight: 500; }

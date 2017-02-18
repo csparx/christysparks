@@ -611,7 +611,8 @@ body {
   .home-wrap .mobile-nav.is-open {
     display: block;
     -webkit-transform: translateY(0%);
-            transform: translateY(0%); } }
+            transform: translateY(0%);
+    margin-top: 20%; } }
 
 section.about {
   background-image: url(../img/christy-profile.jpg);
@@ -740,9 +741,9 @@ section.portfolio {
 
 @media (max-width: 640px) {
   section.portfolio {
-    padding: 20px; }
+    padding: 0px; }
     section.portfolio .flex.flex--center .col-3 a img {
-      max-width: 33.3%;
+      max-width: 100%;
       margin: 0; }
     section.portfolio .button-div {
       margin-top: 20px; }
@@ -854,13 +855,9 @@ section.contact {
 
 @media (max-width: 640px) {
   section.contact {
-    padding-top: 90px; }
-    section.contact .block .contact-box input.field-50 {
-      width: 90%;
-      margin: 15px 20px 0 20px; }
-    section.contact .block .contact-box textarea.message {
-      width: 90%;
-      margin: 15px 20px; } }
+    padding: 0px; }
+    section.contact .flex .emailme {
+      font-size: 42px; } }
 
 .home-wrap {
   display: -ms-flexbox;
@@ -920,8 +917,6 @@ section.contact {
   margin-top: -30px; }
 
 @media (max-width: 640px) {
-  .home-sections .flex {
-    display: block; }
   .order-first {
     -ms-flex-order: -1;
         order: -1; }

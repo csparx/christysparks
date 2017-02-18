@@ -713,8 +713,7 @@ section.about {
 section.portfolio {
   padding: 0px;
   background-image: url(../img/background/greycircles.jpg);
-  background-repeat: repeat;
-  background-attachment: fixed; }
+  background-repeat: repeat; }
   section.portfolio .flex.flex--center .col-3 a {
     margin: 0px;
     padding: 0px; }

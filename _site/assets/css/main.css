@@ -680,8 +680,9 @@ section.about {
     background-image: url(../img/christy-profile.jpg);
     background-position: center;
     background-size: cover;
-    height: 300px;
-    margin-bottom: 0px; }
+    height: 200px;
+    margin-bottom: 188px;
+    width: 100%; }
     section.about .blue-overlay {
       background-color: #005b7f;
       position: absolute;

@@ -1,5 +1,5 @@
 # Personal Portfolio
-Christysparks.com is used as my personal portfolio website. This site showcases past projects as well as providing details, links, and demos. Links to my GitHub, Twitter, and LinkedIn accounts are also provided.
+[Christysparks.com](http://www.christysparks.com) is used as my personal portfolio website. This site showcases past projects as well as providing details, links, and demos. Links to my GitHub, Twitter, and LinkedIn accounts are also provided.
 
 ## Built With
 

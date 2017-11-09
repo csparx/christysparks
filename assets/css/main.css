@@ -624,8 +624,8 @@ section.about {
     background-color: #005b7f;
     position: absolute;
     top: -20px;
-    left: 125px;
-    border-radius: 0 175px 175px 175px;
+    right: -10px;
+    border-radius: 175px 0px 175px 175px;
     padding: 50px 50px 20px 50px;
     overflow: hidden; }
     section.about .blue-overlay h2 {

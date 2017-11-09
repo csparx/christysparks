@@ -913,7 +913,7 @@ section.contact {
   margin: 10px 10px; }
 
 .push-left {
-  /*margin-right: 530px;*/
+  margin-right: 0px;
   margin-top: -30px; }
 
 @media (max-width: 640px) {
@@ -933,7 +933,7 @@ section.contact {
     width: 100%; }
   .push-left {
     margin-left: 0;
-    margin-right: 100px; } }
+    margin-right: 0px; } }
 
 .home-lead {
   font-size: 36px;

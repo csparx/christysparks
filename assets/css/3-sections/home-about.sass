@@ -1,20 +1,23 @@
 section.about
   background:
-    image: url(../img/christy-profile.jpg)
+    color: rgba(0,91,127,1)
     position: center
     size: cover
-  height: 400px
-  padding: 50px 0
 
   .blue-overlay
-    background:
-      color: rgba(0,91,127,1)
-    position: absolute
-    top: -20px
-    left: 125px
-    border-radius: 0 175px 175px 175px
     padding: 50px 50px 20px 50px
     overflow: hidden
+
+    .logo
+      +hide-text
+      background:
+        image: url(/assets/img/cs-profile.png)
+        repeat: no-repeat
+        position: center
+        size: contain
+      height: 250px
+      padding: 0
+      margin: 0
 
     h2
       color: white
@@ -24,6 +27,7 @@ section.about
       line-height: 1
       margin-left: 20px
       margin-bottom: 10px
+      text-align: center
 
 
     .home-lead
@@ -35,9 +39,10 @@ section.about
       white-space: pre
       margin-left: 20px
       line-height: 1.2
+      text-align: center
 
     .home-cta
-      margin-left: 100px
+      text-align: center
 
       .contact-button
         color: white
@@ -51,17 +56,13 @@ section.about
 
 @media (max-width: 775px)
   section.about
-    height: 225px
+    height: auto
     background:
-      image: url(../img/christy-profile.jpg)
       position: center
       size: cover
 
     .blue-overlay
-      top: 120px
-      left: -20px
-      border-radius: 0 100px 100px 100px
-      padding: 0px 30px 10px 20px
+      margin: 20px auto
 
       h2
         font:
@@ -81,24 +82,18 @@ section.about
 @media (max-width: 640px)
   section.about
     background:
-      image: url(../img/christy-profile.jpg)
       position: center
       size: cover
-    height: 200px
-    margin-bottom: 188px
+    height: auto
     width: 100%
 
     .blue-overlay
       background:
         color: rgba(0,91,127,1)
-      position: absolute
-      bottom: 0px
+      position: relative
       border-radius: 0
       padding: 0
-      height: 240px
-      top: 380px
       width: 100%
-      left: 0px
 
       h2
         font:
@@ -119,6 +114,6 @@ section.about
 
         .contact-button
           font:
-            size: 16px
-          margin-left: auto
-          margin-right: auto
+            size: 22px
+          margin: auto
+          padding: 10px 20px

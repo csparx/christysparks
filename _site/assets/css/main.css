@@ -513,7 +513,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 55px;
+    height: 50px;
     padding: 0;
     margin: 0; }
   .home-wrap header .site-nav ul {
@@ -533,7 +533,7 @@ body {
     display: block;
     text-align: right;
     padding-right: 20px;
-    color: #005b7f; }
+    color: red; }
   .home-wrap header .mobile-nav-toggle {
     display: none;
     width: 50px;
@@ -612,29 +612,35 @@ body {
     display: block;
     -webkit-transform: translateY(0%);
             transform: translateY(0%);
-    margin-top: 20%; } }
+    margin-top: 20%;
+    z-index: 2; } }
 
 section.about {
-  background-image: url(../img/christy-profile.jpg);
+  background-color: #005b7f;
   background-position: center;
-  background-size: cover;
-  height: 400px;
-  padding: 50px 0; }
+  background-size: cover; }
   section.about .blue-overlay {
-    background-color: #005b7f;
-    position: absolute;
-    top: -20px;
-    left: 125px;
-    border-radius: 0 175px 175px 175px;
     padding: 50px 50px 20px 50px;
     overflow: hidden; }
+    section.about .blue-overlay .logo {
+      overflow: hidden;
+      text-indent: 101%;
+      white-space: nowrap;
+      background-image: url(/assets/img/cs-profile.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 250px;
+      padding: 0;
+      margin: 0; }
     section.about .blue-overlay h2 {
       color: white;
       font-size: 35px;
       font-weight: 500;
       line-height: 1;
       margin-left: 20px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      text-align: center; }
     section.about .blue-overlay .home-lead {
       color: white;
       font-size: 30px;
@@ -642,9 +648,10 @@ section.about {
       font-family: Helvetica;
       white-space: pre;
       margin-left: 20px;
-      line-height: 1.2; }
+      line-height: 1.2;
+      text-align: center; }
     section.about .blue-overlay .home-cta {
-      margin-left: 100px; }
+      text-align: center; }
       section.about .blue-overlay .home-cta .contact-button {
         color: white;
         font-size: 20px;
@@ -654,15 +661,11 @@ section.about {
 
 @media (max-width: 775px) {
   section.about {
-    height: 225px;
-    background-image: url(../img/christy-profile.jpg);
+    height: auto;
     background-position: center;
     background-size: cover; }
     section.about .blue-overlay {
-      top: 120px;
-      left: -20px;
-      border-radius: 0 100px 100px 100px;
-      padding: 0px 30px 10px 20px; }
+      margin: 20px auto; }
       section.about .blue-overlay h2 {
         font-size: 30px;
         font-weight: 500; }
@@ -677,22 +680,16 @@ section.about {
 
 @media (max-width: 640px) {
   section.about {
-    background-image: url(../img/christy-profile.jpg);
     background-position: center;
     background-size: cover;
-    height: 200px;
-    margin-bottom: 188px;
+    height: auto;
     width: 100%; }
     section.about .blue-overlay {
       background-color: #005b7f;
-      position: absolute;
-      bottom: 0px;
+      position: relative;
       border-radius: 0;
       padding: 0;
-      height: 240px;
-      top: 380px;
-      width: 100%;
-      left: 0px; }
+      width: 100%; }
       section.about .blue-overlay h2 {
         font-size: 25px;
         text-align: center;
@@ -706,23 +703,23 @@ section.about {
         text-align: center;
         margin: 0; }
         section.about .blue-overlay .home-cta .contact-button {
-          font-size: 16px;
-          margin-left: auto;
-          margin-right: auto; } }
+          font-size: 22px;
+          margin: auto;
+          padding: 10px 20px; } }
 
 section.portfolio {
   padding: 0px;
-  background-image: url(../img/background/greycircles.jpg);
+  background-image: url(../img/background/curls.png);
   background-repeat: repeat;
   background-attachment: fixed; }
-  section.portfolio .flex.flex--center .col-3 a {
+  section.portfolio .flex.flex--center .col-30 a {
     margin: 0px;
     padding: 0px; }
-    section.portfolio .flex.flex--center .col-3 a img {
+    section.portfolio .flex.flex--center .col-30 a img {
       max-width: 100%;
       margin: 0px;
       transition: all .2s ease-in-out; }
-      section.portfolio .flex.flex--center .col-3 a img:hover {
+      section.portfolio .flex.flex--center .col-30 a img:hover {
         -webkit-transform: scale(1.1);
                 transform: scale(1.1); }
   section.portfolio .button-div {
@@ -742,7 +739,7 @@ section.portfolio {
 @media (max-width: 640px) {
   section.portfolio {
     padding: 0px; }
-    section.portfolio .flex.flex--center .col-3 a img {
+    section.portfolio .flex.flex--center .col-30 a img {
       max-width: 100%;
       margin: 0; }
     section.portfolio .button-div {

@@ -717,7 +717,7 @@ section.portfolio {
     padding: 0px; }
     section.portfolio .flex.flex--center .col-30 a img {
       max-width: 100%;
-      margin: 0px;
+      margin: 20px 0px;
       transition: all .2s ease-in-out; }
       section.portfolio .flex.flex--center .col-30 a img:hover {
         -webkit-transform: scale(1.1);

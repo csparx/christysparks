@@ -1,0 +1,166 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    # Site Settings
+    title: Christy's Portfolio
+    url: 'http://christysparks.com'
+    about: false # set to False or comment line if you want to remove the "How to use?" in the sidebar
+    
+    # Profile information
+    name: Christy Sparks
+    tagline: Full Stack Developer
+    pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    
+    # Sidebar links
+    email: sparkswebdev@gmail.com
+    phone: (334)324-0902
+    #website: blog.webjeda.com #do not add http://
+    linkedin: christy-sparks
+    github: csparx
+    twitter: '@ChristyNSparks'
+
+    languages:
+        - language:
+          idiom: English
+          level: Native
+
+
+career-profile: 
+    title: Career Profile
+    text: 'I have worked at my current company, Hatton-Brown Publishers, for the past ten years. Once I started working at Hatton-Brown Publishers, I was taught the fundamentals of Wordpress, PHP, and Javascript. I managed to quickly teach myself several additional web based coding languages which I utilized to create and manage over 16 different websites for the company. My skills allowed me to create a new subdivision for Hatton-Brown, HB Media. This subdivision is responsible for developing websites for small businesses in the industry.
+          <br><br>Throughout my time working with Hatton-Brown Publishers, I have gained valuable experience brainstorming new ideas with team members, learning new tasks efficiently, analyzing/improving past business processes and working with editors to create innovative digital media. I continued to further my education while working full time, and in the summer of 2015 I graduated from Troy University with a Bachelor’s in Computer Science. 
+          <br><br>During my career as a web developer, I have worked remotely for several companies. I am currently working remotely for Café Racer Magazine. I created an ecommerce website for Café Racer Magazine in 2012 and over the course of five years, have developed several new functionalities for the website. These new functions included magazine subscriptions with automatic renewals, digital magazine subscriptions with embedded interactive layouts, and streaming video of Café Racer TV.'
+
+
+studies: 
+    - education:
+      degree: Bachelor of Science<br>in Computer Science
+      university: Troy University
+      time: 2015
+      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
+      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem."
+
+
+
+experiences:
+    title: Experiences
+    
+    
+    experiences:
+        - role: Web developer
+          time: 2010 - Present
+          company: Hatton-Brown Publishers, Inc.
+          details: Currently serve as the web developer for Hatton-Brown, a production company that has grown to be the influential leader in forest-based publishing for more than 60 years. Manage the website division for over 15 different magazines and expositions. Sole creator and organizer of HB Media, a web development service offered to small business owners. Creator of ForesTree Equipment Trader, the premier platform for buying, selling and trading forestry equipment online.
+
+        - role: Web developer
+          time: 2012 – Present
+          company: Café Racer Magazine
+          details: Overhauled previous ecommerce website, increasing future sales. Café Racer is  a rapidly growing magazine providing a complete, bimonthly guide to café racers. Implemented a digital magazine and café racer tv streaming subscription for purchase. Team-up with the sales representative to create additional ad revenue. 
+        
+        - role: Graphic Designer
+          time: 2008 – 2010
+          company: Hatton-Brown Publishers, Inc.
+          details: Worked with a team of designers to produce seven magazines to meet the print deadline. Designed layouts, color corrected and manipulated pictures for all publications. Processed incoming ads to be placed in the magazine.
+
+        - role: Production Assistant
+          time: 2007 – 2008
+          company: Hatton-Brown Publishers, Inc.
+          details: Updated websites with new, quality content. Maintained advertiser index of contact information. Managed social media accounts for all publications and expositions. Provided team members with updated reports of analytics.
+
+
+projects:
+    title: Projects
+    intro: ""
+    
+    projects:
+      - project:
+        title: ForesTree Equipment Trader
+        link: "http://www.forestreetrader.com/"
+        tagline: "ForesTree Equipment Trader is the outgrowth of Southern Loggin’ Times, a tabloid magazine founded in 1972 that soared to treetop popularity over the following decades. ForesTree Equipment Trader is a marketplace that connects you with buyers and sellers across the nation offering machinery, equipment, parts, and much more for most all makes, models and years of forestry equipment."
+      - project:
+        title: Café Racer Magazine
+        link: "http://caferacermag.com/"
+        tagline: "Café Racer Magazine is the complete, bimonthly guide to cafe racers, classic bikes, specials, hybrids, British iron, streetfighters and other incredible, high-performance motorcycles."
+      - project:
+        title: Panel & Engineered Lumber International Conference & Expo
+        link: "http://www.panelworldmag.com/"
+        tagline: "The educational and training event for the benefit of the worldwide structural, non-structural wood panel, engineered lumber, components, and laminates and value-added industries"
+      - project:
+        title: Wood Bioenergy Conference & Expo
+        link: "http://www.bioenergyshow.com/wp-admin"
+        tagline: "The educational event for wood bioenergy industry industrial wood pellets, heating wood pellets, biomass power, wood fiber procurement and in-woods biomass processing as delivered by 45 experts in the Power, Renewable Energy & Energy Conservation industry."
+      - project:
+        title: Power Equipment Trade Magazine
+        link: "http://poweret.com/"
+        tagline: "Power Equipment Trade offers six dynamic issues per year with industry news, new products, dealer focused selling strategies and more."
+      - project:
+        title: BeAuthentic
+        link: "http://www.beauthenticstore.com/"
+        tagline: "Website featuring the clothing brands of Southern Wildlife Unlimited, EB Apparel, and The Loggin Outfit"
+
+
+skills:
+    title: Skills &amp; Proficiency
+    skills:
+        - skill:
+          name: HTML5
+          level: 98%
+        - skill:
+          name: CSS
+          level: 98%
+        - skill:
+          name: SASS
+          level: 75%
+        - skill:
+          name: Javascript
+          level: 75%
+        - skill:
+          name: JQuery
+          level: 75%
+        - skill:
+          name: AJAX
+          level: 60%
+        - skill:
+          name: Bootstrap
+          level: 90%
+        - skill:
+          name: Java
+          level: 50%
+        - skill:
+          name: PHP
+          level: 80%
+        - skill:
+          name: Ruby/Rails
+          level: 40%
+        - skill:
+          name: Git
+          level: 98%
+        - skill:
+          name: Wordpress
+          level: 98%
+        - skill:
+          name: MySQL
+          level: 90%
+        - skill:
+          name: Adobe Photoshop
+          level: 98%
+        - skill:
+          name: Adobe Indesign
+          level: 80%
+        - skill:
+          name: Adobe Illustrator
+          level: 98%
+        - skill:
+          name: QuarkXPress
+          level: 60%
+        - skill:
+          name: Photo Editing/Retouching
+          level: 98%
+
+
+footer: 
+    text: ''

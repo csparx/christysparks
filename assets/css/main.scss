@@ -1,17 +1,8 @@
-@import "0-tools/bourbon/bourbon";
-@import "0-tools/normalize";
-@import "0-tools/fonts";
+---
 
-@import "1-base/vars";
-@import "1-base/base";
+---
 
-@import "3-sections/header";
-@import "3-sections/home-about";
-@import "3-sections/home-portfolio";
-@import "3-sections/home-articles";
-@import "3-sections/home-links";
-@import "3-sections/home-contact";
+@charset "utf-8";
 
-@import "4-layouts/home";
-
-@import "5-portfolio/forestree";
+@import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
+@import "default"; // main partials

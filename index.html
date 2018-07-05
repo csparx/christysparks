@@ -1,23 +1,18 @@
 ---
 layout: default
-title: Christy Sparks Portfolio
 ---
 
-<div class="home-wrap">
 
-	{% include header.html %}
+{% include career-profile.html %}
 
-	<div class="home-sections">
+{% if site.education_in_main %}
+    {% include education.html %}
+{% endif %}
 
-		{% include section-about.html %}
-		{% include section-portfolio.html %}
-		{% include section-articles.html %}
-		{% include section-links.html %}
-		{% include section-contact.html %}
+{% include experience.html %}
 
-		<!-- all the sections here -->
-		<!--<div style="height: 2000px"></div>-->
+{% include projects.html %}
 
-	</div>
+{% include publications.html %}
 
-</div>
+{% include skills.html %}

@@ -12,6 +12,12 @@ layout: compress
         {% include sidebar.html %}
         
         <div class="main-wrapper">
+
+        	{% if page.url != "/" %}
+
+        		<i class="fa fa-arrow-circle-left"></i><a href="javascript: history.go(-1)"> Back</a>
+
+        	{% endif %}
            
            {{content}}
             

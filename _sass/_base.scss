@@ -162,6 +162,10 @@ p {
     background: #fff;
     padding: 60px;
     padding-right: 340px;
+    img{
+        width: 100%;
+        margin: 20px 0px;
+    }
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
@@ -256,6 +260,7 @@ p {
 
 
 .skillset {
+    column-count: 3;
     .item {
         margin-bottom: 15px;
         overflow: hidden;

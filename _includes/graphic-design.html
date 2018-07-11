@@ -1,0 +1,25 @@
+{% if site.data.data.graphic %}
+<section class="section projects-section">
+
+  <h2 class="section-title"><i class="fa fa-archive"></i>{{ site.data.data.graphic.title }}</h2>
+
+  {% if site.data.data.graphic.intro %}
+  <div class="intro">
+      <p>{{ site.data.data.graphic.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for design in site.data.data.graphic.graphic %}
+    <div class="item">
+
+      <span class="project-title"><a href="{{ design.link }}">{{ design.title }}</a></span>
+
+      {% if design.tagline %}
+      - <span class="project-tagline">{{ design.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
